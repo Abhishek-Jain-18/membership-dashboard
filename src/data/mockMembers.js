@@ -12,7 +12,7 @@ const today = new Date().toISOString().split('T')[0]
 const yesterday = new Date(Date.now() - 86400000).toISOString().split('T')[0]
 
 export const initialMembers = [
-  { id: '1',  name: 'Arjun Sharma',      email: 'arjun.sharma@techcorp.in',    membershipType: 'Enterprise', status: 'Active',   joinedAt: today },
+  { id: '1',  name: 'Abhishek Jain',     email: 'abhishek.jain@example.com',   membershipType: 'Enterprise', status: 'Active',   joinedAt: today },
   { id: '2',  name: 'Priya Nair',        email: 'priya.nair@designstudio.com', membershipType: 'Pro',        status: 'Active',   joinedAt: today },
   { id: '3',  name: 'Rohan Mehta',       email: 'rohan.mehta@startup.io',      membershipType: 'Basic',      status: 'Active',   joinedAt: today },
   { id: '4',  name: 'Sneha Kapoor',      email: 'sneha.kapoor@finflow.com',    membershipType: 'Pro',        status: 'Inactive', joinedAt: yesterday },
